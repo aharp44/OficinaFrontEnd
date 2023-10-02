@@ -1,0 +1,88 @@
+*{
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+main{
+    height:1200px;
+    padding-top:220px;
+
+    background-image: url('https://countdown.gwbrtech.com/IMGs/pexels-trinity-kubassek-445109.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    width: fit-content;
+    margin:0 auto;
+}
+
+.title, .counter, .bottom{
+    margin:5px;
+    padding:10px;
+}
+
+.counter{
+    width: 700px;
+    margin: 0 auto;
+    margin-top:30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.bottom{
+    margin-top:140px;
+}
+
+/* ===================== */
+
+header{
+    background-color:deepskyblue;
+    padding: 20px 0;
+    position:fixed;
+    width: 100%;
+}
+
+.counter__subclass{
+    padding:5px;
+}
+
+.numero{
+    font-size:55px;
+    height:100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    border-color: #009aad;
+}
+
+/* novo */
+h1{
+    font-size: 30px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 65px;
+    margin-top:20px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.tempo{
+    font-size:25px;
+}
+
